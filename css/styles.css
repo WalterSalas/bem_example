@@ -1,0 +1,48 @@
+body{
+    font-family: 'Muli', sans-serif;
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #1d3557; 
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    background-color: #457b9d;
+    width: 300px;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid #f1faee;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.cart__image img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.btn{
+    font-family: 'Muli', sans-serif;
+    color: #f1faee;
+    border: none;
+    letter-spacing: 2px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 0px;
+    outline: none;
+}
+
+.cart__detail h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #f1faee;
+}
